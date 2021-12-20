@@ -1,3 +1,9 @@
+body{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
 .navbar-brand img{
     width: 130px;
     margin-right:auto
@@ -33,5 +39,63 @@
 }
 
 .image-topic{
-    width: 160px
+    width: 100%;
+    height:auto;
+    padding: 0;
+    
+}
+
+.userpic{
+    width: 25px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+#user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#heading{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-spacing: -3px;
+    padding: 0;
+    margin: 0;
+    white-space: 1px;
+    
+}
+
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: #817f7f;
+}
+
+#info{
+    font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+#date{
+    display: inline;
+}
+
+.info-icon{
+    width: 20px;
+    display: inline;
+   
+
 }
