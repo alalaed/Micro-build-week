@@ -1,0 +1,37 @@
+.navbar-brand img{
+    width: 130px;
+    margin-right:auto
+
+}
+
+#navbarSupportedContent{
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item img{
+    width:40px;
+    border-radius: 60px;
+}
+
+.nav-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-secondary{
+    border-radius: 40px;
+}
+
+.icon{
+    width: 24px !important; 
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.image-topic{
+    width: 160px
+}
