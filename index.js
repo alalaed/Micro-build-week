@@ -73,7 +73,7 @@ const page = function(){
     let container = document.getElementsByClassName("row border-top")
     for( let i = 0; i<data.length; i++){    
     const inhalt = `
-    <div id="left-page " class="col-8 mt-5 border-right">
+    <div id="left-page " class="col-8 py-2 border-right">
                 <div class="row topic no-gutters">
                     <div class="col-8">
                         <div id="user">
@@ -81,7 +81,7 @@ const page = function(){
                             <span class="d-inline">${data[i].userName}</span>
                         </div>
                         <div id="heading">
-                            ${data[i].Heading}
+                            ${data[i].heading}
                         </div>
                         <div id="description">
                             <span class="description">
@@ -112,7 +112,7 @@ const page = function(){
 
 
                     </div>
-                    <div  class="col-4 align-middle pl-2">
+                    <div  class="col-4 align-middle pl-2 ">
                         <img src="/assets/1_eGhp-DL21v3bYIrnTburew.jpeg" class="image-topic">
                     </div>
 

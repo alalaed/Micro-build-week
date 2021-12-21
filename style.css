@@ -101,5 +101,8 @@ body{
 #following{
     font-size: 15px;
     font-weight: 700;
-    
+
+}
+#right-page{
+    min-height: 100vh;
 }
