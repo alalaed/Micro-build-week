@@ -2,7 +2,7 @@ const data = [
 
 obj1 = {
     userName : "Ali Alaeddine",
-    userPicture : 
+    userPicture :"/assets/rnb.jpeg", 
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -12,7 +12,7 @@ obj1 = {
 },
 obj2 = {
     userName : "Ali Alaeddine",
-    userPicture:  ,
+    userPicture: "/assets/rnb.jpeg", 
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -22,7 +22,7 @@ obj2 = {
 },
 obj3 = {
     userName : "Ali Alaeddine",
-    userPicture: 
+    userPicture: "/assets/rnb.jpeg",
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -32,7 +32,7 @@ obj3 = {
 },
 obj4 = {
     userName : "Ali Alaeddine",
-    userPicture: 
+    userPicture: "/assets/rnb.jpeg",
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -42,7 +42,7 @@ obj4 = {
 },
 obj5 = {
     userName : "Ali Alaeddine",
-    userPicture: 
+    userPicture: "/assets/rnb.jpeg",
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -52,7 +52,7 @@ obj5 = {
 },
 obj6 = {
     userName : "Ali Alaeddine",
-    userPicture: 
+    userPicture: "/assets/rnb.jpeg",
     heading: "An Extended Break From the Rat Race Has Changed My Life",
     description:"10 lessons learned that I never want to lose",
     date: "Dec3",
@@ -61,3 +61,7 @@ obj6 = {
     state: "popular on Medium"
 },
 ]
+
+let obj7 = {
+    
+}
