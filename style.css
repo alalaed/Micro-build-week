@@ -2,6 +2,9 @@ body{
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+.navbar .navbar-expand-lg .navbar-light .bg-light .mb-5{
+    background-color: white !important;
+}
 
 
 .navbar-brand img{
@@ -94,7 +97,7 @@ body{
 }
 
 .info-icon{
-    width: 16px;
+    width: 14px;
     display: inline;
 }
 
@@ -105,4 +108,56 @@ body{
 }
 #right-page{
     min-height: 100vh;
+}
+
+
+.img-right-page{
+
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+
+}
+
+.button-twitter i img{
+    width: 14px;
+    margin-right: 5px ;
+}
+
+.button-twitter{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 50px;
+    color:#817f7f ;
+    font-size: 12px;
+    padding:4px;
+    margin-top: 10px;
+
+}
+
+h5{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #817f7f;
+    text-decoration: underline
+}
+
+.line{
+    font-size: 10px;
+    color: #817f7f;
+}
+
+.button-recommended{
+    background-color: rgb(246, 245, 245);
+    font-size: 15px;
+    border-radius: 50px;
+    border-width: 0;
+    min-width: 80px;
+    padding: 9px;
+    margin: 3px 3px;
 }

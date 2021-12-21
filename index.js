@@ -70,10 +70,10 @@ obj6 = {
 // }
 
 const page = function(){
-    let container = document.getElementsByClassName("row border-top")
+    let container = document.querySelector("#main-container .row .col")
     for( let i = 0; i<data.length; i++){    
     const inhalt = `
-    <div id="left-page " class="col-8 py-2 border-right">
+  
                 <div class="row topic no-gutters">
                     <div class="col-8">
                         <div id="user">
@@ -118,12 +118,13 @@ const page = function(){
 
                 </div>
 
-            </div>
+         
+            
     `
-    container[0].innerHTML +=inhalt
+    container.innerHTML +=inhalt
     }
 }
 
 window.onload = function(){
-    page()
+   page()
 }
