@@ -63,45 +63,45 @@ obj6 = {
 ]
 
 
-const look = function(data){
-    for( let i = 0; i<data.length; i++){
+// const look = function(data){
+//     for( let i = 0; i<data.length; i++){
         
-    }
-}
+//     }
+// }
 
 const page = function(){
+    let container = document.getElementsByClassName("row border-top")
+    for( let i = 0; i<data.length; i++){    
     const inhalt = `
-    <div id="left-page " class="col-8 mt-5">
+    <div id="left-page " class="col-8 mt-5 border-right">
                 <div class="row topic no-gutters">
                     <div class="col-8">
                         <div id="user">
                             <img src="/assets/rnb.jpeg" alt="" class="userpic">
-                            <span class="d-inline">Ali Alaeddine</span>
+                            <span class="d-inline">${data[i].userName}</span>
                         </div>
                         <div id="heading">
-                            An Extended Break From the Rat Race Has Changed My Life
+                            ${data[i].Heading}
                         </div>
                         <div id="description">
                             <span class="description">
-                                10 lessons learned that I never want to lose
-                                10 lessons learned that I never want to lose
-                                10 lessons learned that I never want to lose
+                                ${data[i].description}
                             </span>
                             <div id="info" class="row ">
                                 <div id="date" class="col-9 pl-0 mr-auto">
-                                    <div class="d-inline">Dec3</div>
+                                    <div class="d-inline">${data[i].date}</div>
                                     <div class="d-inline ">
                                         <span>.</span>
                                     </div>
-                                    <div class="d-inline">4 min read</div>
+                                    <div class="d-inline">${data[i].time}</div>
                                     <div class="d-inline ">
                                         <span>.</span>
                                     </div>
-                                    <div class="d-inline">React</div>
+                                    <div class="d-inline">${data[i].about}</div>
                                     <div class="d-inline ">
                                         <span>.</span>
                                     </div>
-                                    <div class="d-inline">Popular on Medium</div>
+                                    <div class="d-inline">${data[i].state}</div>
                                    </div> 
                                     <div class="col-2">
                                         <i><img src="/assets/icons8-bookmark-64.png" class="info-icon mr-2"></i>
@@ -120,7 +120,10 @@ const page = function(){
 
             </div>
     `
-
-
+    container[0].innerHTML +=inhalt
+    }
 }
 
+window.onload = function(){
+    page()
+}
