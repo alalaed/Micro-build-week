@@ -94,8 +94,11 @@ body{
 }
 
 .info-icon{
-    width: 20px;
+    width: 16px;
     display: inline;
-   
+}
 
+#following{
+    font-size: 15px;
+    font-weight: 700;
 }
