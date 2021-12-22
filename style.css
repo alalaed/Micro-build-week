@@ -163,6 +163,16 @@ h5{
 }
 
 .whotofollow{
-    width:32px;
+    width:40px;
     display: inline;
+    
 }
+
+.follow{
+    background-color: white;
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #817f7f;
+}
+    
