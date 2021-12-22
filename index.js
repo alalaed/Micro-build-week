@@ -74,7 +74,7 @@ const page = function(){
     for( let i = 0; i<data.length; i++){    
     const inhalt = `
   
-                <div class="row topic no-gutters">
+                <div class="row topic no-gutters mb-3">
                     <div class="col-8">
                         <div id="user">
                             <img src="/assets/rnb.jpeg" alt="" class="userpic">
