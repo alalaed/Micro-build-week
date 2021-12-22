@@ -1,0 +1,104 @@
+#logo {
+    width: 15rem;
+    
+}
+
+#bellLogo {
+    width: 2rem;
+}
+
+#bookmarkLogo {
+    width: 1.5rem;
+    margin-top: 4px;
+}
+
+.whotofollow{
+    width:40px;
+    display: inline;
+
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    background-color: white;
+}
+
+h1 .border-bottom {
+    font-size: large;
+    
+}
+
+.find {
+    font-size: medium;
+    width: 20%;
+    color: #817f7f;
+
+}
+
+.card-link .font-weight-bold {
+    color: black !important;
+}
+
+.col-1 .py-1 {
+    width: 40px;
+}
+
+.topics {
+    background-color: white;
+    border: 0.5px solid rgb(221, 220, 220);
+    min-width: 20px;
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+#buttons {
+    width: 50%
+}
+
+.learning {
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#javapicture {
+    width: 20rem;
+    
+}
+
+.readmore {
+    font-size: 1rem;
+    color: #747171;
+}
+
+.clap {
+    width: 20px;
+}
+
+#brucelee {
+    width: 50%;
+}
+
+.siteb {
+    font-weight: 300;
+    color: #747171;
+    width: 40%;
+    font-size: 18px;
+}
+
+.btn-follow {
+    color: limegreen;
+    border: 1px solid limegreen;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+.unnamed {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.people {
+    font-size: 15px;
+}
